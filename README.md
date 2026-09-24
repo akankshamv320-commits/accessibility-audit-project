@@ -1,20 +1,20 @@
-# Accessibility Baseline & Repository Architecture Audit
+Accessibility Baseline & Repository Architecture Audit
 
-## Project Overview
+Project Overview
 
-This project documents an accessibility audit of a public-facing website and establishes a maintainable full-stack project structure.
+This project contains an accessibility audit of a public-facing website along with a basic full-stack project structure.
 
-The project focuses on:
+The main work includes:
 
 - Accessibility testing
-- Keyboard-only navigation
 - Lighthouse analysis
+- Keyboard navigation testing
 - Accessibility issue documentation
-- Maintainable repository architecture
+- Repository architecture
 - Frontend and backend separation
-- Testing and documentation
+- Testing documentation
 
-## Repository Structure
+Repository Structure
 
 ```text
 accessibility-audit-project/
@@ -26,11 +26,13 @@ accessibility-audit-project/
 │   └── README.md
 │
 ├── docs/
-│   └── README.md
+│   ├── README.md
+│   ├── audit-report.md
+│   └── lighthouse-audit.png
 │
 ├── tests/
 │   └── README.md
 │
-├── accessibility-audit-completed.csv
+├── accessibility-audit-corrected.csv
 │
 └── README.md
